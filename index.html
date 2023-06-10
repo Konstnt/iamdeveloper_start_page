@@ -38,13 +38,13 @@
             <a class="btn btn-primary" href="/contact">Нанять</a>
             <div class="social">
                 <a href="mailto:seo@kotobase.ru">
-                    <img src="/images/static/social/email.svg" alt="E-mail">
+                    <img src="images/static/social/email.svg" alt="E-mail">
                 </a>
                 <a href="https://github.com/konstnt" target="_blank" rel="noreferrer noopener">
-                    <img src="/images/static/social/github.svg" alt="GitHub">
+                    <img src="images/static/social/github.svg" alt="GitHub">
                 </a>
                 <a href="https://tlgg.ru/iamkonstantin" target="_blank" rel="noreferrer noopener">
-                    <img src="/images/static/social/telegram.svg" alt="Telegram">
+                    <img src="images/static/social/telegram.svg" alt="Telegram">
                 </a>
             </div>
             <p class="copyright text text-gray">&copy; 2020 &laquo;kotobase.ru&raquo;</p>
@@ -54,7 +54,7 @@
 
     <header class="mobile-header">
         <a href="/" class="logo">
-            <img src="/images/static/logo.svg" alt="kotoBase.RU">
+            <img src="images/static/logo.svg" alt="kotoBase.RU">
         </a>
 
         <button class="menu js-menu" aria-label="Меню">
@@ -75,10 +75,10 @@
 </main>
 
 
-<script src="/assets/e3c875c9/yii.js"></script>
-<script src="/assets/e3c875c9/yii.validation.js"></script>
-<script src="/assets/e3c875c9/yii.activeForm.js"></script>
-<script src="/dist/bundle.js"></script></body>
+<script src="assets/e3c875c9/yii.js"></script>
+<script src="assets/e3c875c9/yii.validation.js"></script>
+<script src="assets/e3c875c9/yii.activeForm.js"></script>
+<script src="dist/bundle.js"></script></body>
 <script>jQuery(function ($) {
     jQuery('#w0').yiiActiveForm([{"id":"feedback-fullname","name":"fullName","container":".field-feedback-fullname","input":"#feedback-fullname","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необходимо заполнить «Ваше имя»."});yii.validation.string(value, messages, {"message":"Значение «Ваше имя» должно быть строкой.","min":2,"tooShort":"Значение «Ваше имя» должно содержать минимум 2 символа.","max":255,"tooLong":"Значение «Ваше имя» должно содержать максимум 255 символов.","skipOnEmpty":1});}},{"id":"feedback-email","name":"email","container":".field-feedback-email","input":"#feedback-email","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необходимо заполнить «E-mail»."});yii.validation.email(value, messages, {"pattern":/^[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?$/,"fullPattern":/^[^@]*<[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+(?:\.[a-zA-Z0-9!#$%&'*+\/=?^_`{|}~-]+)*@(?:[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z0-9](?:[a-zA-Z0-9-]*[a-zA-Z0-9])?>$/,"allowName":false,"message":"Значение «E-mail» не является правильным email адресом.","enableIDN":false,"skipOnEmpty":1});}},{"id":"feedback-message","name":"message","container":".field-feedback-message","input":"#feedback-message","validate":function (attribute, value, messages, deferred, $form) {yii.validation.required(value, messages, {"message":"Необходимо заполнить «Сообщение»."});yii.validation.string(value, messages, {"message":"Значение «Сообщение» должно быть строкой.","min":10,"tooShort":"Значение «Сообщение» должно содержать минимум 10 символов.","skipOnEmpty":1});}}], []);
     });</script>
