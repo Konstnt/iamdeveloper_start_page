@@ -1,0 +1,76 @@
+.html, 
+.body {
+  margin:0;
+  padding:0;
+  height:100%;
+  width:100%;
+  overflow:hidden
+}
+*{
+  margin:0;
+  padding:0;
+  font-family:'Montserrat', sans-serif;
+  box-sizing:border-box
+ }
+img {
+  max-width:100%;
+  max-height:100%;
+  width:auto
+}
+.btn {
+  background-color:#FFF;
+  text-transform:uppercase;
+  color:#30333C;
+  text-decoration:none;
+  padding:15px;
+  min-width:200px;
+  display:inline-block;
+  text-align:center;
+  border-radius:100px;
+  letter-spacing:2px;
+  font-weight:600;
+  cursor:pointer;
+  border:none;
+  outline:none 
+}
+  
+@media (max-width: 992px) {
+  .btn {
+    padding:12px;
+    letter-spacing:1px;
+    min-width:150px
+  }
+}
+.btn.btn-primary {
+  background-color:#3782FF;
+  color:#FFF
+}
+.text {
+  color:#FFF;
+  line-height:22px
+}
+.text.text-gray {
+  color:#6A727D }
+  main {
+    display:flex;
+    height:100vh;
+    background:linear-gradient(105deg, #2F3640 30%, #39404A 30%)
+  }
+  @media (max-width: 992px) { 
+    main {
+      background:linear-gradient(105deg, #2F3640 36%, #39404A 36%)
+    }
+  }
+  @media (max-width: 768px) {
+    main { 
+      flex-direction:column;
+      background:#39404A}
+    }
+    main header.mobile-header {
+      background-color:#2F3640;
+      height:50px;
+      padding:0 15px;
+      align-items:center;
+      display:none }
+    main header.mobile-header .logo { display:block;
+        height:20px}main header.mobile-header .menu{margin-left:auto;display:flex;justify-content:space-between;flex-direction:column;height:20px;width:30px;background:none;border:none;outline:none}main header.mobile-header .menu.active span:first-child{transform:translateY(9px) rotate(-45deg)}main header.mobile-header .menu.active span:nth-child(2){transform:translateX(200px);opacity:0}main header.mobile-header .menu.active span:last-child{transform:translateY(-9px) rotate(45deg)}main header.mobile-header .menu span{transition:.5s;background-color:#FFF;border-radius:100px;width:30px;height:2px}@media (max-width: 768px){main header.mobile-header{display:flex}}main aside{display:flex;flex-direction:column;padding-top:20px;padding-left:20px;padding-bottom:20px;width:30%;transition:.5s}@media (max-width: 992px){main aside{padding-top:15px;padding-left:15px;padding-bottom:15px;width:33%}}@media (max-width: 768px){main aside{width:100%;position:absolute;top:50px;left:0;bottom:0;background:#2F3640;transform:translate(-100%, 0)}}main aside.active{transform:translate(0, 0)}main aside .logo{display:block;height:26px;margin-bottom:25px}@media (max-width: 992px){main aside .logo{margin-bottom:15px}}@media (max-width: 768px){main aside .logo{height:22px;display:none}}main aside nav{margin-top:40px;display:inline-block}main aside nav ul{list-style:none}main aside nav ul li{margin-top:25px}main aside nav ul li a{letter-spacing:1px;font-weight:700;display:block;text-transform:uppercase;text-decoration:none;color:#6A727D;transition:.2s;font-size:18px}main aside nav ul li a:hover{color:#FFF}main aside nav ul li.active>a{color:#FFF}main section{width:70%;padding-left:70px}@media (max-width: 992px){main section{width:67%;padding-left:40px}}@media (max-width: 768px){main section{width:100%;height:calc(100% - 50px);padding:0 40px}}@media (max-width: 576px){main section{padding:0 15px}}main section.index{display:flex;flex-direction:column;justify-content:center}main section.index .title{line-height:50px;font-size:46px;text-transform:uppercase;font-weight:700}@media (max-width: 1200px){main section.index .title{font-size:40px;line-height:40px}}@media (max-width: 992px){main section.index .title{font-size:30px;line-height:30px}}@media (max-width: 576px){main section.index .title{font-size:25px;line-height:28px}}main section.index .title .first{font-size:28px}@media (max-width: 1200px){main section.index .title .first{font-size:22px}}@media (max-width: 992px){main section.index .title .first{font-size:22px}}main section.index .title .first .iam{font-weight:200}main section.index .title .developer{font-weight:200}main section.index .subtitle{margin-top:10px}@media (max-width: 1200px){main section.index .subtitle{margin-top:5px}}@media (max-width: 576px){main section.index .subtitle{margin-top:0;font-size:14px}}main section.container{padding:50px 100px 50px;overflow-y:scroll}@media (max-width: 992px){main section.container{padding:50px}}@media (max-width: 576px){main section.container{padding:50px 15px}}main section.container .title,main section.container .subtitle{color:#FFF;text-align:center;text-transform:uppercase;margin-bottom:30px}main section.container .title{font-size:34px}main section.container .subtitle{font-size:24px;margin-top:60px}main section.contact{text-align:center}main section.contact form{margin-top:50px}main section.contact form .row{display:flex}@media (max-width: 576px){main section.contact form .row{flex-direction:column}}main section.contact form .row .form-group{width:50%}@media (max-width: 576px){main section.contact form .row .form-group{width:100%}}main section.contact form .form-group{display:flex;flex-direction:column;text-align:left;padding:0 15px;margin-bottom:10px}@media (max-width: 576px){main section.contact form .form-group{padding:0}}main section.contact form .form-group label{color:#FFF;margin-bottom:6px}main section.contact form .form-group input,main section.contact form .form-group textarea{min-height:40px;border:none;background-color:rgba(106,114,125,0.5);resize:none;outline:none;padding:10px 15px;font-size:16px;color:#FFF}main section.contact form .form-group input::placeholder,main section.contact form .form-group textarea::placeholder{color:#6A727D}main section.contact form .form-group.has-error .help-block{color:#bb3c3c}main section.contact form .form-group .help-block{white-space:nowrap;text-overflow:ellipsis;overflow:hidden;min-height:22px;font-size:14px;padding-top:3px}@media (max-width: 576px){main section.contact form .form-group .help-block{white-space:unset}}main footer{margin-top:auto}main footer .social{display:flex;margin:30px 0 15px}@media (max-width: 768px){main footer .social{margin:15px 0 10px}}main footer .social a{display:block;margin-right:15px}main footer .social a img{height:40px;width:40px}main footer .copyright{font-size:12px}
